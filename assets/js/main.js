@@ -3,7 +3,7 @@ import { cartMenu } from './components/cartMenu.js'
 import { darkTheme } from './components/darkTheme.js'
 import { headerScroll } from './components/headerScroll.js'
 import { load } from './components/load.js'
-import { navMenu } from './components/navMenu.js'
+// import { navMenu } from './components/navMenu.js'
 // import { sectionActive } from './components/sectionActive.js'
 
 import { productos } from './data/db.js'
@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
 document.addEventListener('DOMContentLoaded', function () {
   darkTheme()
   headerScroll()
-  navMenu()
+  // navMenu()
   cartMenu()
   // sectionActive()
 
@@ -221,5 +221,4 @@ function comprar() {
   carrito = []
   pintarProductos()
   pintarCarrito()
-
 }
