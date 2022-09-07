@@ -719,6 +719,9 @@ body.dark-theme {
   right: -100%;
   padding: 3.5rem 2rem;
   transition: .4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cart__title-center {
